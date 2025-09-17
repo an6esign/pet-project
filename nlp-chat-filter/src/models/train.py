@@ -16,7 +16,7 @@ ARTIFACT_MODEL_PATH = "models/artifacts/best_text_router.joblib"
 ARTIFACT_LABELMAP_PATH = "models/artifacts/label_map.json"
 FIG_CM_PATH = "reports/figures/confusion_matrix.png"
 
-TARGET_NAMES = ["ML‑вопрос", "Баг/жалоба", "Дизайн", "Заказ", "Мусор"]
+TARGET_NAMES = ["Вопросы по Telegram Ads", "Баг/жалоба", "Дизайн", "Заказ", "Мусор"]
 
 def get_dataset():
     texts = [
